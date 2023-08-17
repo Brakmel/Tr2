@@ -1,0 +1,96 @@
+body{
+    margin:0%;
+}
+/*Esto es la cabeza de la pagina web*/
+header{
+    background-color: rgba(0, 0, 0, 0.927);
+    width: 100%;
+    height: 15ex;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+button{
+    cursor: pointer;
+}
+.raya_header{
+    background-color: rgba(255, 39, 39, 0.464);
+    width: 100%;
+    height: 5ex;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.button_administrador{
+    background-color: rgb(236, 224, 224);
+    border: none;
+    width: 25ex;
+    height: 3ex;
+    font-size: 2ex;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 0.4ex;
+    margin: 1ex;
+    transition: 1s;
+}
+.button_administrador:hover{
+   background-color: rgba(246, 255, 0, 0.519);
+    transition: 1s;
+}
+.logo_empresa{
+    width: 12ex;
+    border-radius: 10ex;
+    transition: 1s;
+    
+}
+.logo_empresa:hover{
+    -webkit-transform: rotateZ(360deg);
+    transition: 0.4s ease-in-out;
+    cursor: pointer;
+}
+h1{
+    color: whitesmoke;
+    margin: 1ex;
+    font-size: 5ex;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/*Esto es el centro de la pagina web*/
+main{
+    background-color: rgb(241, 241, 241);
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.button_normal{
+    background-color: rgb(146, 222, 152);
+    border: none;
+    margin: 3ex;
+    width: 15ex;
+    height: 5ex;
+    font-size: 10ex;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 0.4ex;
+    transition: 1s;
+}
+.button_normal:hover{
+    background-color: rgba(218, 165, 32, 0.56);
+    transition: 1s;
+}
+.button_critico{
+    background-color: rgb(220, 199, 146);
+    border: none;
+    margin: 3ex;
+    width: 15ex;
+    height: 5ex;
+    font-size: 10ex;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 0.4ex;
+    transition: 1s;
+}
+.button_critico:hover{
+    background-color: rgba(255, 0, 0, 0.567);
+    transition: 1s;
+}
